@@ -1,0 +1,45 @@
+{
+  "CameraName": "T機入OSクリップ位置",
+  "IsCrop": false,
+  "CropRect": {
+    "X": 0,
+    "Y": 0,
+    "W": 0,
+    "H": 0
+  },
+  "OffsetImagePath": null,
+  "OffsetZeroPoint": {
+    "X": 0,
+    "Y": 0
+  },
+  "Procs": [
+    {
+      "Mode": 1,
+      "ROI": {
+        "Thresh": 10,
+        "Rect": {
+          "X": 800,
+          "Y": 470,
+          "W": 241,
+          "H": 160
+        },
+        "Angle": 0,
+        "ContourTh": 2500
+      }
+    },  
+    {
+      "Mode": 1,
+      "ROI": {
+        "Thresh": 10,
+        "Rect": {
+          "X": 800,
+          "Y": 470,
+          "W": 241,
+          "H": 160
+        },
+        "Angle": 0,
+        "ContourTh": 0
+      }
+    }
+  ]
+}
